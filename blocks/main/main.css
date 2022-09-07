@@ -1,0 +1,24 @@
+.main {
+  margin: 0 100px;
+}
+
+.main::after {
+  content: " ";
+  display: block;
+  width: 470px;
+  margin: 0 auto;  
+  border: 1px solid #D9DBDD;
+}
+
+@media screen and (max-width: 727px) {
+  .main {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .main::after {
+    width: 543px;
+    margin: 0 -40px;
+  }
+}

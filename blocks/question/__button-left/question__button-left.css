@@ -1,0 +1,4 @@
+.question__button-left {
+  grid-area: button1;
+  justify-self: center;
+}

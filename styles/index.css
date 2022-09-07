@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_orange/button_orange.css);
+@import url(../blocks/button/_white/button_white.css);
+
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__title/banner__title.css);
+@import url(../blocks/banner/__button/banner__button.css);
+@import url(../blocks/banner/__image/banner__image.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__text/main__text.css);
+@import url(../blocks/main/__button/main__button.css);
+
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__text/promo__text.css);
+
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__button-left/question__button-left.css);
+@import url(../blocks/question/__button-right/question__button-right.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_container/footer_container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

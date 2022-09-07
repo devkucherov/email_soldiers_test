@@ -1,0 +1,9 @@
+.question__title {
+  grid-area: title;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #18191F;
+  margin: 0;
+  padding: 30px 0 25px 0;
+}

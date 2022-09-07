@@ -1,0 +1,17 @@
+.banner__title {
+  grid-area: title;
+  margin: 0;
+  padding: 73px 0 0 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 727px) {
+  .banner__title {
+    width: 90%;
+    padding-bottom: 40px;
+    padding-left: 40px;
+  }
+  }

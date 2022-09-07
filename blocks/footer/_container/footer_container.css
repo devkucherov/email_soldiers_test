@@ -1,0 +1,15 @@
+.footer_container {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #8B8D90;;
+}
+
+@media screen and (max-width: 727px) {
+  .footer_container {
+    margin: 0 40px;
+  }
+}

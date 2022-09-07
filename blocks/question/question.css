@@ -1,0 +1,21 @@
+.question {
+  border: 1px solid #D9DBDD;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas: 'title title'
+                       'button1 button2';
+  margin-top: 23px;
+  padding-bottom: 38px;
+}
+
+@media screen and (max-width: 727px) {
+  .question {
+    /* grid-template-columns: repeat(2, minmax(300px, 1fr)); */
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-areas: 'title'
+                       'button1'
+                       'button2';
+  }
+  }

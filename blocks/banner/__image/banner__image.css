@@ -1,0 +1,13 @@
+.banner__image {
+  grid-area: image;
+  width: 261px;
+  object-fit: contain;
+  padding-top: 52px;
+  margin: 0 44px 0 44px;
+}
+
+@media screen and (max-width: 727px) {
+  .banner__image {
+    display: none;
+  }
+  }

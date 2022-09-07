@@ -1,0 +1,8 @@
+.footer {
+  background-color: #F4F5F7;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  font-size: 12px;
+  line-height: 21px;
+  color: #AEAFB1;
+}

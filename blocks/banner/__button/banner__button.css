@@ -1,0 +1,10 @@
+.banner__button {
+  grid-area: button;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 727px) {
+  .banner__button {
+    margin-left: 40px;
+  }
+  }
